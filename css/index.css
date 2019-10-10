@@ -310,3 +310,23 @@ header .intro .text {
   font-size: 2rem;
   color: white;
 }
+@media (max-width: 500px) {
+  header .intro {
+    width: 90%;
+  }
+  .home .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-section .text-content {
+    width: 90%;
+    padding: 0;
+  }
+  .home .content-section .img-content {
+    width: 90%;
+    padding: 0;
+  }
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
+}
