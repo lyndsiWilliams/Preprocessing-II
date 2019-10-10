@@ -329,4 +329,19 @@ header .intro .text {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
+  .home .content-destination {
+    width: 90%;
+  }
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    width: 70%;
+  }
+  .home .content-pick .destination .btn {
+    margin-bottom: 0;
+    width: 100%;
+    padding: 3% 0;
+  }
 }
