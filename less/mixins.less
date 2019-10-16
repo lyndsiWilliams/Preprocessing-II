@@ -1,1 +1,32 @@
 // Mixins in here
+.displayFlex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.bottomBorder {
+    border-bottom: 2px dashed gray;
+}
+
+.borderTest {
+    border: 1px solid black;
+}
+
+.btnStyle {
+    background-color: @button-bg;
+	border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    height: 15%;
+    margin-bottom: 15%;
+    font-size: 2rem;
+    color: white;
+}
+
+.hovAnim {
+    background-color: @main-bg;
+    color: @button-bg;
+    border: 1px solid @button-bg;
+}
